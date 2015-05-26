@@ -32,7 +32,7 @@ namespace PedestrianWebPoint.BLOWING.COM.Controllers
             var passwdStr = Request["passwdStr"];
 
             var resultObj= loginService.Login(emailStr, passwdStr);
-            var jsonObj=  JsonConvert.SerializeObject(resultObj);
+            var  jsonObj=  JsonConvert.SerializeObject(resultObj);
 
             return Content(jsonObj);
         }

@@ -1,5 +1,7 @@
 ﻿var LoginHelper = {
 
+
+
     registerEvent: function () {
 
         //账户
@@ -32,6 +34,19 @@
             }
         });
 
+        //登陆
+        $("#loginSubmit").click(function () {
+
+            var emailStr = $("#email").val();
+            var passdStr = $("#password").val();
+
+            $.post("/login/LoginPoint", { emailStr: emailStr, passwdStr: passdStr }, function (data) {
+
+                alert(data);
+            });
+
+            return false;
+        });
     },
 
     //验证帐号是否合法
