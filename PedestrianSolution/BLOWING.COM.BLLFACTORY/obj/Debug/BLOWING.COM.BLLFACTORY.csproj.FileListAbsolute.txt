@@ -1,0 +1,9 @@
+F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.BLLFACTORY\bin\Debug\BLOWING.COM.BLLFACTORY.dll
+F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.BLLFACTORY\bin\Debug\BLOWING.COM.BLLFACTORY.pdb
+F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.BLLFACTORY\obj\Debug\BLOWING.COM.BLLFACTORY.dll
+F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.BLLFACTORY\obj\Debug\BLOWING.COM.BLLFACTORY.pdb
+F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.BLLFACTORY\bin\Debug\BLOWING.COM.BLL.dll
+F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.BLLFACTORY\bin\Debug\BLOWING.COM.IBLL.dll
+F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.BLLFACTORY\bin\Debug\BLOWING.COM.BLL.pdb
+F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.BLLFACTORY\bin\Debug\BLOWING.COM.IBLL.pdb
+F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.BLLFACTORY\obj\Debug\BLOWING.COM.BLLFACTORY.csprojResolveAssemblyReference.cache

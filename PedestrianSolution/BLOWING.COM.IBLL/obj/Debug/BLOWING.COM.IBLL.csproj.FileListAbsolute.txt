@@ -1,0 +1,5 @@
+F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.IBLL\bin\Debug\BLOWING.COM.IBLL.dll
+F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.IBLL\bin\Debug\BLOWING.COM.IBLL.pdb
+F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.IBLL\obj\Debug\BLOWING.COM.IBLL.csprojResolveAssemblyReference.cache
+F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.IBLL\obj\Debug\BLOWING.COM.IBLL.dll
+F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.IBLL\obj\Debug\BLOWING.COM.IBLL.pdb
