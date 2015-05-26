@@ -5,3 +5,11 @@ F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.BLL\bin\Debug\BLOWING
 F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.BLL\obj\Debug\BLOWING.COM.BLL.csprojResolveAssemblyReference.cache
 F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.BLL\obj\Debug\BLOWING.COM.BLL.dll
 F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.BLL\obj\Debug\BLOWING.COM.BLL.pdb
+F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.BLL\bin\Debug\BLOWING.COM.DAL.dll
+F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.BLL\bin\Debug\BLOWING.COM.IDAL.dll
+F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.BLL\bin\Debug\BLOWING.COM.COMMON.dll
+F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.BLL\bin\Debug\BLOWING.COM.DAL.pdb
+F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.BLL\bin\Debug\BLOWING.COM.IDAL.pdb
+F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.BLL\bin\Debug\BLOWING.COM.COMMON.pdb
+F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.BLL\bin\Debug\BLOWING.COM.MODEL.dll
+F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.BLL\bin\Debug\BLOWING.COM.MODEL.pdb

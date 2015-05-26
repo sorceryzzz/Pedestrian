@@ -3,3 +3,5 @@ F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.IDAL\bin\Debug\BLOWIN
 F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.IDAL\obj\Debug\BLOWING.COM.IDAL.csprojResolveAssemblyReference.cache
 F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.IDAL\obj\Debug\BLOWING.COM.IDAL.dll
 F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.IDAL\obj\Debug\BLOWING.COM.IDAL.pdb
+F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.IDAL\bin\Debug\BLOWING.COM.MODEL.dll
+F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.IDAL\bin\Debug\BLOWING.COM.MODEL.pdb

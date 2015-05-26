@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BLOWING.COM.MODEL;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,7 +15,7 @@ namespace BLOWING.COM.IDAL
         /// <param name="user"></param>
         /// <param name="passwd"></param>
         /// <returns></returns>
-        string Login(string user, string passwd);
+        UserInfo Login(string user, string passwd);
 
     }
 }

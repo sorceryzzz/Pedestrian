@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BLOWING.COM.MODEL;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,7 +16,7 @@ namespace BLOWING.COM.IBLL
        /// <param name="user">账户</param>
        /// <param name="passwd">密码</param>
        /// <returns>登陆结果</returns>
-       string Login(string user, string passwd);
+       UserInfo Login(string user, string passwd);
 
     }
 }

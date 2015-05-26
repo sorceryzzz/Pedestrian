@@ -1,5 +1,6 @@
 ﻿using BLOWING.COM.BLLFACTORY;
 using BLOWING.COM.IBLL;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,14 +28,13 @@ namespace PedestrianWebPoint.BLOWING.COM.Controllers
         /// <returns>登陆结果</returns>
         public ContentResult LoginPoint()
         {
-
             var emailStr = Request["emailStr"];
             var passwdStr = Request["passwdStr"];
 
-            var resultStr= loginService.Login(emailStr, passwdStr);
+            var resultObj= loginService.Login(emailStr, passwdStr);
+            var jsonObj=  JsonConvert.SerializeObject(resultObj);
 
-
-            return Content("");
+            return Content(jsonObj);
         }
 
     }

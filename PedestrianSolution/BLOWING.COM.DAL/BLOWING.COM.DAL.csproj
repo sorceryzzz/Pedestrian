@@ -43,9 +43,17 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BLOWING.COM.COMMON\BLOWING.COM.COMMON.csproj">
+      <Project>{eeb9854e-80ea-4654-8ec2-26a2f1894695}</Project>
+      <Name>BLOWING.COM.COMMON</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BLOWING.COM.IDAL\BLOWING.COM.IDAL.csproj">
       <Project>{4ae98ca3-277d-4ed8-9430-027368e6697e}</Project>
       <Name>BLOWING.COM.IDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BLOWING.COM.MODEL\BLOWING.COM.MODEL.csproj">
+      <Project>{2d3c45bf-58ee-4d74-8ef5-0bc5ee7c6798}</Project>
+      <Name>BLOWING.COM.MODEL</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

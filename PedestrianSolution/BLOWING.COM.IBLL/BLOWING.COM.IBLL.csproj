@@ -42,6 +42,12 @@
     <Compile Include="ILoginService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLOWING.COM.MODEL\BLOWING.COM.MODEL.csproj">
+      <Project>{2d3c45bf-58ee-4d74-8ef5-0bc5ee7c6798}</Project>
+      <Name>BLOWING.COM.MODEL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

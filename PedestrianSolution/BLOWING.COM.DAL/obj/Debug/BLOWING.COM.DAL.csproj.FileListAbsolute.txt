@@ -5,3 +5,7 @@ F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.DAL\bin\Debug\BLOWING
 F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.DAL\obj\Debug\BLOWING.COM.DAL.csprojResolveAssemblyReference.cache
 F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.DAL\obj\Debug\BLOWING.COM.DAL.dll
 F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.DAL\obj\Debug\BLOWING.COM.DAL.pdb
+F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.DAL\bin\Debug\BLOWING.COM.COMMON.dll
+F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.DAL\bin\Debug\BLOWING.COM.COMMON.pdb
+F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.DAL\bin\Debug\BLOWING.COM.MODEL.dll
+F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.DAL\bin\Debug\BLOWING.COM.MODEL.pdb
