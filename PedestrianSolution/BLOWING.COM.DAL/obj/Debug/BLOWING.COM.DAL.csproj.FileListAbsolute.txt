@@ -1,7 +1,0 @@
-F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.DAL\bin\Debug\BLOWING.COM.DAL.dll
-F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.DAL\bin\Debug\BLOWING.COM.DAL.pdb
-F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.DAL\bin\Debug\BLOWING.COM.IDAL.dll
-F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.DAL\bin\Debug\BLOWING.COM.IDAL.pdb
-F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.DAL\obj\Debug\BLOWING.COM.DAL.csprojResolveAssemblyReference.cache
-F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.DAL\obj\Debug\BLOWING.COM.DAL.dll
-F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.DAL\obj\Debug\BLOWING.COM.DAL.pdb
