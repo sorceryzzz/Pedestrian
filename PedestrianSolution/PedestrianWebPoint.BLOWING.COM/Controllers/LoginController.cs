@@ -24,7 +24,7 @@ namespace PedestrianWebPoint.BLOWING.COM.Controllers
         /// <summary>
         /// 登陆
         /// </summary>
-        /// <returns></returns>
+        /// <returns>登陆结果</returns>
         public ContentResult LoginPoint()
         {
 
