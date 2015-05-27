@@ -27,8 +27,31 @@
           background-image:url(/IMAGE/dengshanzhe.jpg);
             background-repeat:no-repeat;
     }*/
+
+
+
+
+
+
+.am-form input[type="text"], .am-form input[type="password"],.am-form input[type="email"]
+{
+    /*width:300px;
+    padding:5px;*/
+     position:relative;
+     /*border:solid 1px #666;*/
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+}
+.am-form input.required 
+{
+    border: solid 1px #f00;
+}
+
+
+
   </style>
   <script src="~/JS/jquery/jquery-1.5.2.min.js"></script>
+  <script src="~/JS/Common.js"></script>
   <script src="~/JS/Login.js"></script>
     <script type="text/javascript">    
         //入口
@@ -37,7 +60,30 @@
             LoginHelper.registerEvent();
 
 
+
+
+
+
+
+
         })
+
+        function inputShake(eleId) {
+                resetFields();
+                var emptyfields = $("input[name="+eleId+"]");
+                if (emptyfields.size() > 0) {
+                    emptyfields.each(function () {
+                        $(this).stop()
+                            .animate({ left: "-10px" }, 100).animate({ left: "10px" }, 100)
+                            .animate({ left: "-10px" }, 100).animate({ left: "10px" }, 100)
+                            .animate({ left: "0px" }, 100)
+                            .addClass("required");
+                    });
+                }
+        }
+        function resetFields() {
+            $("input[type=text   input[type=password]").removeClass("required");
+        }
     </script>
 
 </head>
@@ -66,10 +112,10 @@
 
     <form method="post" class="am-form">
       <label for="email">邮箱或手机:</label>
-      <input type="email" name="" id="email" value="">
+      <input type="email" name="email" id="email" value="">
       <br>
       <label for="password">密码:</label>
-      <input type="password" name="" id="password" value="">
+      <input type="password" name="password" id="password" value="">
       <br>
 
       <label for="remember-me">
@@ -77,12 +123,12 @@
         记住密码
       </label>
       <br />
+
       <div class="am-cf">
         <input type="submit" name="" value="登 录" id="loginSubmit" class="am-btn am-btn-primary am-btn-sm am-fl">
         <input type="submit" name="" value="忘记密码 ^_^? " class="am-btn am-btn-default am-btn-sm am-fr">
       </div>
     </form>
-
 
     <hr>
     <p>© 2015 AllMobilize, Inc. Licensed under MIT license.</p>

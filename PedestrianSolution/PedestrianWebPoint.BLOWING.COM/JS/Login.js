@@ -1,38 +1,67 @@
-﻿var LoginHelper = {
+﻿
 
+var LoginHelper = {
 
+    checkValidate:function(){
+     
+        var emailStr = $("#email").val();
+        var isEmail = LoginHelper.checkEmail(emailStr);
+        var isMoblie = LoginHelper.checkMobile(emailStr);
+        var passdStr = $("#password").val();
+        var isPassd = LoginHelper.checkPassword(passdStr);
+
+        if (!isEmail && !isMoblie) {
+            //提示账户名有问题
+            return false;
+        } else if (!isPassd) {
+
+            //提示密码有问题
+            return false;
+        }
+        else {
+            return true;
+        }
+    },
 
     registerEvent: function () {
 
-        //账户
+        //绑定账户失去焦点事件
         $("#email").blur(function () {
             var emailStr = $("#email").val();
-            var isEmail=  LoginHelper.checkEmail(emailStr);
+            var isEmail = LoginHelper.checkEmail(emailStr);
             var isMoblie = LoginHelper.checkMobile(emailStr);
 
             //验证邮箱或手机
             if (!isEmail && !isMoblie) {
 
-                alert("请输入邮箱或手机!");
+
+                inputShake("email");
+
+
+                console.log("请输入邮箱或手机!");
 
 
             } else if (isMoblie) {
-                alert("输入为手机号！");
+                //inputShake("email");
+                //console.log("输入为手机号！");
 
             } else {
-                alert("输入为邮箱！");
+                // alert("输入为邮箱！");
             }
         });
 
-        //密码
+        //绑定密码失去焦点事件
         $("#password").blur(function () {
 
             var passdStr = $("#password").val();
             var isPassd = LoginHelper.checkPassword(passdStr);
             if (!isPassd) {
-                alert("密码中必须包含字母、数字、特称字符，至少8个字符，最多30个字符。");
+
+                inputShake("password");
+              // alert("密码中必须包含字母、数字、特称字符，至少8个字符，最多30个字符。");
             }
         });
+
 
         //登陆
         $("#loginSubmit").click(function () {
@@ -40,12 +69,32 @@
             var emailStr = $("#email").val();
             var passdStr = $("#password").val();
 
-            $.post("/login/LoginPoint", { emailStr: emailStr, passwdStr: passdStr }, function (data) {
+             var isValidate= LoginHelper.checkValidate();
+            
+             if (isValidate) {
+                 //登陆验证
+                 $.post("/login/LoginPoint", { emailStr: emailStr, passwdStr: passdStr }, function (data) {
 
-                alert(data);
-            });
+                     var jsonObj = JSON.parse(data);
 
-            return false;
+                     if (jsonObj.status == "ok") {
+
+                         //  CommonHelper.setCookie(
+                        //alert("登陆成功");
+
+                         //跳转主页
+                         window.location.href = "/home/index";
+
+                     } else {
+                         alert("登陆失败,用户名或密码不正确.");
+
+                         //登陆失败
+                     }
+                 });
+
+
+             }
+             return false;
         });
     },
 

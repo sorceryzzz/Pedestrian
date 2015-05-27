@@ -2,3 +2,4 @@ F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.MODEL\bin\Debug\BLOWI
 F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.MODEL\bin\Debug\BLOWING.COM.MODEL.pdb
 F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.MODEL\obj\Debug\BLOWING.COM.MODEL.dll
 F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.MODEL\obj\Debug\BLOWING.COM.MODEL.pdb
+F:\WorkSpace\NET\Pedestrian\PedestrianSolution\BLOWING.COM.MODEL\obj\Debug\BLOWING.COM.MODEL.csprojResolveAssemblyReference.cache

@@ -1,0 +1,10 @@
+﻿var animation = {
+
+    resetFields: function () {
+
+
+    }
+
+
+
+}
