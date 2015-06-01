@@ -1,0 +1,300 @@
+.Streams-module {
+	background-color: #fff;
+	border-radius: 6px;
+	overflow: hidden;
+	padding: 18px 23px;
+	margin-bottom: 10px
+}
+.Streams-featuredStreamList:after {
+	content: "";
+	display: inline-block;
+	width: 100%
+}
+
+.Streams-featuredStream {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-bottom: 16px;
+	width: 264px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	*display: inline;
+	zoom: 1
+}
+
+.StreamsCategoryNav-item {
+	margin-bottom: 19px;
+	padding-left: 22px;
+	position: relative
+}
+.StreamsCategoryNav-itemName {
+	color: #afbcc5;
+	cursor: pointer;
+	font-size: 16px
+}
+ .StreamsCategoryNav-item .Icon--chevronDown {
+	color: #afbcc5;
+	cursor: pointer;
+	font-size: 8px;
+	left: 0;
+	position: absolute;
+	top: -1px;
+	-webkit-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+	transition: -webkit-transform 300ms linear;
+	transition: transform 300ms linear
+}
+ .StreamCard {
+	background-color: #f5f8fa;
+	border-radius: 6px;
+	height: 170px;
+	overflow: hidden;
+	position: relative
+}
+ .StreamCard-coverImageBlurred {
+	-webkit-filter: blur(6px);
+	filter: blur(6px)
+}
+ .StreamCard-coverImageBlurred,.StreamCard-coverImage {
+	background-position: center;
+	background-size: cover;
+	border-radius: 6px;
+	height: 170px;
+	left: 0;
+	opacity: 1;
+	-ms-filter: "alpha(opacity=100)";
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	transition: all .3s ease .2s;
+	width: 100%
+}
+.StreamCard:hover .StreamCard-coverImage {
+	opacity: 0;
+	-ms-filter: "alpha(opacity=0)";
+	transition: all .3s
+}
+.StreamCard:hover .StreamCard-coverImageOverlay {
+	opacity: .7;
+	-ms-filter: "alpha(opacity=70)";
+	transition: all .3s ease .2s
+}
+
+.StreamCard-coverImageOverlay {
+	background: #000;
+	border-radius: 6px;
+	height: 100%;
+	opacity: .6;
+	-ms-filter: "alpha(opacity=60)";
+	position: absolute;
+	transition: all .3s;
+	width: 100%
+}
+
+.StreamCard-details {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #fff;
+	height: 100%;
+	width: 100%;
+	padding: 20px;
+	padding-top: 70px;
+	position: absolute;
+	top: 0;
+	transition: all .3s
+}
+
+.StreamCard-users,.StreamCard-usersDescription {
+	opacity: 0;
+	-ms-filter: "alpha(opacity=0)";
+	transition: all .3s
+}
+.StreamCard-usersDescription {
+	max-height: 55px;
+	overflow: hidden;
+	text-overflow: ellipsis
+}
+
+.StreamCard-usersDescription span {
+	font-weight: bold
+}
+.StreamCard-user {
+	display: inline-block;
+	margin-left: 5px
+}
+
+
+.StreamCard-userAvatar {
+	border: 2px solid #fff;
+	border-radius: 3px;
+	height: 30px;
+	width: 30px
+}
+.StreamCard:hover .StreamCard-users,.StreamCard:hover .StreamCard-usersDescription {
+	opacity: 1;
+	-ms-filter: "alpha(opacity=100)";
+	transition: all .3s ease .2s
+}
+.StreamCard-name {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 100;
+	height: 40px;
+	letter-spacing: 1px;
+	line-height: 23px;
+	opacity: 1;
+	-ms-filter: "alpha(opacity=100)";
+	text-transform: capitalize;
+	top: 25px;
+	transition: all .3s ease .2s
+}
+.StreamCard:hover .StreamCard-name {
+	opacity: 0;
+	-ms-filter: "alpha(opacity=0)";
+	transition: all .3s
+}
+.StreamCard:hover .StreamCard-details {
+	padding-top: 10px;
+	transition: all .3s ease .2s
+}
+.StreamsFooter {
+	border-top: 1px solid #e1e8ed;
+	padding: 30px 0 40px 0
+}
+.StreamsFooter-list {
+	margin: 0 auto;
+	text-align: center;
+	width: 890px
+}
+@media screen and (min-width:1236px) {
+	.StreamsFooter-list {
+		width: 1190px
+	}
+}
+.StreamsFooter-copyright {
+	color: #aab8c2
+}
+
+.StreamsHero {
+	position: relative
+}
+
+.StreamsHero-image {
+	background-size: 100%;
+	background-repeat: none;
+	background-position: center;
+	position: absolute
+}
+.StreamsHero-content {
+	padding-top: 100px;
+	position: relative;
+	text-align: center;
+	transition: padding 300ms linear
+}
+.StreamsHero .Icon--bird {
+	color: #fff;
+	font-size: 32px
+}
+
+.StreamsHero-header {
+	color: #fff;
+	font-size: 40px;
+	font-weight: 100;
+	line-height: 48px;
+	margin-bottom: 2px;
+	transition: font-size 300ms linear
+}
+.StreamsHero-blurb {
+	color: #fff;
+	font-size: 24px;
+	font-weight: 200;
+	line-height: 28px;
+	opacity: .5;
+	-ms-filter: "alpha(opacity=50)";
+	transition: opacity 300ms linear
+}
+
+.StreamsTopBar-innerContainer {
+	margin: 0 auto;
+	padding-top: 10px;
+	position: relative;
+	width: 890px
+}
+
+@media(min-width:1236px) {
+	.StreamsTopBar-innerContainer {
+		width: 1180px
+	}
+}  
+
+.StreamsTopBar-searchContainer {
+	margin: 0 auto;
+	width: 544px
+}
+
+@media(max-width:1236px) {
+	.StreamsTopBar-searchContainer {
+		width: 450px
+	}
+}
+.StreamsTopBar-searchButton {
+	color: #a8b6c0;
+	font-size: 20px;
+	height: 22px;
+	left: 15px;
+	padding-left: 1px;
+	position: absolute;
+	top: 7px
+}
+.StreamsTopBar-searchInput {
+	background-color: #edf0f3;
+	border: 0;
+	border-radius: 6px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 14px;
+	padding: 10px 10px 10px 45px;
+	width: 100%
+}
+.StreamsTopBar-searchInput:-moz-placeholder {
+	color: #aab8c2;
+	text-overflow: ellipsis!important
+}
+
+.StreamsTopBar-searchInput::-moz-placeholder {
+	color: #aab8c2;
+	text-overflow: ellipsis!important
+}
+.LoginCallOut {
+	/*background-color: #8899a6!important;
+	border: 1px solid #e1e8ed;*/
+	border-radius: 6px;
+	padding: 15px
+}
+
+.LoginCallOut-title {
+	color: #667585;
+	font-size: 22px;
+	font-weight: 300;
+	line-height: 26px;
+	margin-bottom: 5px
+}
+.LoginForm input {
+	width: 100%;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-top: 10px
+}
+.LoginForm .primary-btn:focus {
+	border-color: #fff
+}
+.StreamsFooter-item {
+	display: inline-block;
+	padding: 10px 9px 0 9px
+}
+
+.StreamsFooter-item a {
+	color: #55acee
+}

@@ -1,5 +1,4 @@
 ﻿
-
 var LoginHelper = {
 
     checkValidate:function(){
@@ -34,20 +33,23 @@ var LoginHelper = {
             //验证邮箱或手机
             if (!isEmail && !isMoblie) {
 
-
+                //文本框抖动
                 inputShake("email");
-
 
                 console.log("请输入邮箱或手机!");
 
-
             } else if (isMoblie) {
+
+                $(this).removeClass("required");
                 //inputShake("email");
-                //console.log("输入为手机号！");
+                console.log("输入为手机号！");
 
             } else {
                 // alert("输入为邮箱！");
+                $(this).removeClass("required");
             }
+
+
         });
 
         //绑定密码失去焦点事件
@@ -58,7 +60,9 @@ var LoginHelper = {
             if (!isPassd) {
 
                 inputShake("password");
-              // alert("密码中必须包含字母、数字、特称字符，至少8个字符，最多30个字符。");
+                // alert("密码中必须包含字母、数字、特称字符，至少8个字符，最多30个字符。");
+            } else {
+                $(this).removeClass("required");
             }
         });
 

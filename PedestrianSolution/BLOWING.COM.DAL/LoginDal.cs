@@ -35,7 +35,7 @@ namespace BLOWING.COM.DAL
       ,[Column_8]
       ,[Column_9]
   FROM [USER].[dbo].[User] as ur
-  where (ur.Email=@Email and ur.Passwd=@Passwd) or (ur.Mobile='@Mobile' and ur.Passwd='@Passwd')";
+  where (ur.Email=@Email and ur.Passwd=@Passwd) or (ur.Mobile=@Mobile and ur.Passwd=@Passwd)";
 	       #endregion
 
           #region - param-
@@ -62,16 +62,10 @@ namespace BLOWING.COM.DAL
                userInfo.Age = int.Parse(obj.GetValue(3).ToString());
                userInfo.Email = (string)obj.GetValue(4);
                userInfo.Mobile = (string)obj.GetValue(5);
-           
-               
            }
-         
-
-
        }
        catch (Exception ex)
        {
-
 
            throw;
        } 
