@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\ICityInfoBy12306Dal.cs" />
     <Compile Include="ILoginDal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

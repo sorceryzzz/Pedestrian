@@ -223,22 +223,14 @@
 	width: 890px
 }
 
-@media(min-width:1236px) {
-	.StreamsTopBar-innerContainer {
-		width: 1180px
-	}
-}  
+
 
 .StreamsTopBar-searchContainer {
 	margin: 0 auto;
 	width: 544px
 }
 
-@media(max-width:1236px) {
-	.StreamsTopBar-searchContainer {
-		width: 450px
-	}
-}
+
 .StreamsTopBar-searchButton {
 	color: #a8b6c0;
 	font-size: 20px;
