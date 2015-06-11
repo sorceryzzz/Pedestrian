@@ -16,17 +16,17 @@ namespace ConsoleApplication1
         {
 
            #region - 导入城市信息 -
-           ImportExcelHelper importExcelHelper = new ImportExcelHelper();
-           string resultStr= importExcelHelper.ImportCity("test.xlsx");
+           //ImportExcelHelper importExcelHelper = new ImportExcelHelper();
+           //string resultStr= importExcelHelper.ImportCity("test.xlsx");
 
-           if (resultStr == "sucess")
-           {
-               Console.WriteLine("导入数据成功");
-           }
-           else
-           {
-               Console.WriteLine("导入数据失败");
-           }
+           //if (resultStr == "sucess")
+           //{
+           //    Console.WriteLine("导入数据成功");
+           //}
+           //else
+           //{
+           //    Console.WriteLine("导入数据失败");
+           //}
 
             #endregion
 
@@ -51,6 +51,46 @@ namespace ConsoleApplication1
 
             //} 
             #endregion
+
+
+            #region - 导出热门城市信息 -
+            //string cityStr = File.ReadAllText("favcity.txt");
+
+            //string path = "pathtmp";
+            //ExportExcelHelper exportExcelHelper = new ExportExcelHelper();
+
+            //string resultStr = exportExcelHelper.ExportFavCity(cityStr, path);
+
+            //if (resultStr == "sucess")
+            //{
+            //    Console.WriteLine("导出城市信息成功");
+
+            //}
+            //else
+            //{
+            //    Console.WriteLine("导出城市信息失败");
+
+            //} 
+            #endregion
+
+
+
+            #region - 导入热门城市信息 -
+            ImportExcelHelper importExcelHelper = new ImportExcelHelper();
+            string resultStr = importExcelHelper.ImportFavCity("favcity.xlsx");
+
+            if (resultStr == "sucess")
+            {
+                Console.WriteLine("导入数据成功");
+            }
+            else
+            {
+                Console.WriteLine("导入数据失败");
+            }
+            #endregion
+
+
+
 
             Console.ReadKey();
         }

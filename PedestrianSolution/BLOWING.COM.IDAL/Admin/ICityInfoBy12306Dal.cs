@@ -17,6 +17,11 @@ namespace BLOWING.COM.IDAL.Admin
       /// <returns></returns>
       bool InsertCityInfoBy12306List(IList<CityInfoBy12306> cityInfoList);
 
-
+      /// <summary>
+      /// 插入热门城市信息
+      /// </summary>
+      /// <param name="favCityInfoList"></param>
+      /// <returns></returns>
+      bool InsertFavCityInfoBy12306list(IList<MODEL.Excel.FavCityInfoBy12306> favCityInfoList);
     }
 }

@@ -73,5 +73,70 @@ namespace BLOWING.COM.DAL.Admin
           
            }
         }
+
+        /// <summary>
+        /// 插入最热门城市
+        /// </summary>
+        /// <param name="favCityInfoList">热门信息集合</param>
+        /// <returns>执行结果</returns>
+        public bool InsertFavCityInfoBy12306list(IList<MODEL.Excel.FavCityInfoBy12306> favCityInfoList)
+        {
+            #region - query -
+
+            string qyStr = @"INSERT INTO [USER].[dbo].[favoriteCityInfoBy12306]
+           ([cityCode]
+           ,[cityName]
+           ,[cityShortName]
+           ,[spellName]
+           ,[spellShortName]
+           ,[Column_7]
+           ,[Column_8])
+     VALUES
+           (@cityCode
+           ,@cityName
+           ,@cityShortName
+           ,@spellName
+           ,@spellShortName
+           ,@Column_7
+           ,@Column_8)";
+
+            #endregion
+
+            int result = 0;
+
+            try
+            {
+                foreach (var favCityItem in favCityInfoList)
+                {
+
+                    #region - sql param -
+                    SqlParameter[] sqlParams ={
+
+                   new SqlParameter("@cityCode",favCityItem.CityCode),
+                   new SqlParameter("@cityName",favCityItem.CityName),
+                   new SqlParameter("@cityShortName",favCityItem.CityShortName),
+                   new SqlParameter("@spellName",string.Empty),
+                   new SqlParameter("@spellShortName",string.Empty),
+                   new SqlParameter("@Column_7",string.Empty),
+                   new SqlParameter("@Column_8",string.Empty),
+               };
+                    #endregion
+
+
+                    #region - sql exec-
+                    result += SqlHelper.ExecuteNonQuery(qyStr, sqlParams);
+                    #endregion
+
+                }
+                return true;
+            }
+            catch (Exception ex)
+            {
+
+                return false;
+
+            }
+        }
+
     }
 }
