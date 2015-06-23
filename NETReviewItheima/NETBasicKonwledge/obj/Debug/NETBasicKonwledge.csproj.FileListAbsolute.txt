@@ -1,0 +1,6 @@
+F:\WorkSpace\NET\Pedestrian\NETReviewItheima\NETBasicKonwledge\bin\Debug\NETBasicKonwledge.exe.config
+F:\WorkSpace\NET\Pedestrian\NETReviewItheima\NETBasicKonwledge\bin\Debug\NETBasicKonwledge.exe
+F:\WorkSpace\NET\Pedestrian\NETReviewItheima\NETBasicKonwledge\bin\Debug\NETBasicKonwledge.pdb
+F:\WorkSpace\NET\Pedestrian\NETReviewItheima\NETBasicKonwledge\obj\Debug\NETBasicKonwledge.csprojResolveAssemblyReference.cache
+F:\WorkSpace\NET\Pedestrian\NETReviewItheima\NETBasicKonwledge\obj\Debug\NETBasicKonwledge.exe
+F:\WorkSpace\NET\Pedestrian\NETReviewItheima\NETBasicKonwledge\obj\Debug\NETBasicKonwledge.pdb
